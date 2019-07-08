@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    {% load static %}
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/header.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/protection.css' %}"/>
+</head>
+<body>
+    <div id="header" class="container"></div>
+    <div id="main" style="padding-bottom:100px;" class="container">
+        <div class="contain">
+            <h2>服务协议</h2>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;如果你无法简洁的表达你的想法，那只说明你还不够了解它。</span>
+            <br/>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;只要今天比昨天好，就是前行路上最大的幸运。如果你不把时间用在实现梦想上，就会有外力占用你的时间，把握自己的时间，这意味着你离梦想又近了一步。</span>
+            <br/>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;烦恼的原因在于能力不够而想的太多。把努力变成一种习惯，而不是一时热血。当你休息的时候，别人还在奔跑！只有自己强大，才不会被别人践踏。</span>
+            <br/>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;你凭什么认为你一努力就能超过别人，这样岂不是对那些一直努力的人来说很不公平，所以每一天都是一个新的开始，深呼吸，继续努力！</span>
+            <p>
+                <input type="checkbox" checked/>我已阅读协议内容，并同意协议
+                <br/>
+                <button>提交</button>
+            </p>
+        </div>
+    </div>
+    <div id="footer" class="container"></div>
+    <script src="{% static 'js/jquery-3.2.0.js' %}"></script>
+    <script src="{% static 'js/header.js' %}"></script>
+    <script src="{% static 'js/footer.js' %}"></script>
+</body>
+</html>
